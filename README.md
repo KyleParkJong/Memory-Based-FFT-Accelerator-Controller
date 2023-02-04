@@ -20,6 +20,7 @@ Konkuk Univ. 3rd grade, Embedded Computing lecture - Park Jonghyuk, Ko Ryeowook
 + more details : TP_EC22_r3.pdf
 
 ## What we considered while designing the controller
+* Output result accuracy compared to reference output
 * Considered the input, output, and AXI handshake(valid, ready)
 * Considered whether it is possible to synthesize 
 * 50MHz clock reference, considered the worst negative slack
