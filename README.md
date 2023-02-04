@@ -17,12 +17,12 @@ Konkuk Univ. 3rd grade, Embedded Computing lecture - Park Jonghyuk, Ko Ryeowook
   <img src="/images/block_diagram.png" width="60%" height="60%" title="total loss" alt="total loss"></img>
 </p>
 
++ more details : TP_EC22_r3.pdf
+
 ## What we considered while designing the controller
 * Considered the input, output, and AXI handshake(valid, ready)
 * Considered whether it is possible to synthesize 
 * 50MHz clock reference, considered the worst negative slack
-
-
 
 # Programming language & S/W tools & FPGA used
 * Verilog HDL, C
@@ -30,10 +30,14 @@ Konkuk Univ. 3rd grade, Embedded Computing lecture - Park Jonghyuk, Ko Ryeowook
 * Zybo Z7-20
 
 # Design
-## 16pt FFT controller
-* Our design : controller_16pt_2.v
+* Our design : controller_16pt_2.v, controller_64pt.v
+* sdk_src main.c "fft_hw" function
 
-## 64pt FFT controller
+<p align="center">
+  <img src="/images/fft_hw.png" width="60%" height="60%" title="total loss" alt="total loss"></img>
+</p>
+
++ more details : TP_EC2022_16pt_5조.pdf, TP_EC2022_64pt_5조.pdf
 
 # Result
 
