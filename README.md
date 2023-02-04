@@ -45,15 +45,15 @@ Konkuk Univ. 3rd grade, Embedded Computing lecture - Park Jonghyuk, Ko Ryeowook
 
 ## 16pt FFT Accelerator
 
-<img src="/images/16pt_result1.png" width="70%" height="70%" title="total loss" alt="total loss"></img>
+<img src="/images/16pt_result1.jpg" width="70%" height="70%" title="total loss" alt="total loss"></img>
 
-<img src="/images/16pt_result2.png" width="70%" height="70%" title="total loss" alt="total loss"></img>
+<img src="/images/16pt_result2.jpg" width="70%" height="70%" title="total loss" alt="total loss"></img>
 
 ## 64pt FFT Accelerator
 
-<img src="/images/64pt_result1.png" width="70%" height="70%" title="total loss" alt="total loss"></img>
+<img src="/images/64pt_result1.jpg" width="70%" height="70%" title="total loss" alt="total loss"></img>
 
-<img src="/images/64pt_result2.png" width="70%" height="70%" title="total loss" alt="total loss"></img>
+<img src="/images/64pt_result2.jpg" width="70%" height="70%" title="total loss" alt="total loss"></img>
 
 + more details : TP_EC2022_16pt_5조.pdf, TP_EC2022_64pt_5조.pdf
 
