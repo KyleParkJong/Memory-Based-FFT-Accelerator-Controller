@@ -55,6 +55,8 @@ Konkuk Univ. 3rd grade, Embedded Computing lecture - Park Jonghyuk, Ko Ryeowook
 
 <img src="/images/64pt_result2.png" width="70%" height="70%" title="total loss" alt="total loss"></img>
 
++ more details : TP_EC2022_16pt_5조.pdf, TP_EC2022_64pt_5조.pdf
+
 # 4. What I learned
 * Improved my Verilog HDL and C language skills
     + Synthesis-able Verilog code 
