@@ -1,0 +1,588 @@
+23:40:59 **** Build of project 16pt_bsp ****
+make -k all 
+"Running Make include in ps7_cortexa9_0/libsrc/axidma_v9_5/src"
+make -C ps7_cortexa9_0/libsrc/axidma_v9_5/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_4/src"
+make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_4/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_5/src"
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_5/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/ddrps_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/ddrps_v1_0/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/devcfg_v3_5/src"
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_5/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/dmaps_v2_3/src"
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_3/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/scugic_v3_8/src"
+make -C ps7_cortexa9_0/libsrc/scugic_v3_8/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/scutimer_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/scuwdt_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/standalone_v6_5/src"
+make -C ps7_cortexa9_0/libsrc/standalone_v6_5/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/uartps_v3_5/src"
+make -C ps7_cortexa9_0/libsrc/uartps_v3_5/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/xadcps_v2_2/src"
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_2/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Running Make libs in ps7_cortexa9_0/libsrc/axidma_v9_5/src"
+make -C ps7_cortexa9_0/libsrc/axidma_v9_5/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Compiling axidma"
+arm-none-eabi-ar: creating ../../../lib/libxil.a
+"Running Make libs in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_4/src"
+make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_4/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Compiling coresightps_dcc"
+"Running Make libs in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_5/src"
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_5/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Compiling cpu_cortexa9"
+"Running Make libs in ps7_cortexa9_0/libsrc/ddrps_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/ddrps_v1_0/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Compiling ddrps"
+"Running Make libs in ps7_cortexa9_0/libsrc/devcfg_v3_5/src"
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_5/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Compiling devcfg"
+"Running Make libs in ps7_cortexa9_0/libsrc/dmaps_v2_3/src"
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_3/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Compiling dmaps"
+"Running Make libs in ps7_cortexa9_0/libsrc/scugic_v3_8/src"
+make -C ps7_cortexa9_0/libsrc/scugic_v3_8/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Compiling scugic"
+"Running Make libs in ps7_cortexa9_0/libsrc/scutimer_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Compiling scutimer"
+"Running Make libs in ps7_cortexa9_0/libsrc/scuwdt_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Compiling scuwdt"
+"Running Make libs in ps7_cortexa9_0/libsrc/standalone_v6_5/src"
+make -C ps7_cortexa9_0/libsrc/standalone_v6_5/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Compiling standalone"
+"Running Make libs in ps7_cortexa9_0/libsrc/uartps_v3_5/src"
+make -C ps7_cortexa9_0/libsrc/uartps_v3_5/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Compiling uartps"
+"Running Make libs in ps7_cortexa9_0/libsrc/xadcps_v2_2/src"
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_2/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Compiling xadcps"
+'Finished building libraries'
+23:41:13 **** Build of configuration Debug for project 16pt ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/helloworld.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../16pt_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+Finished building: ../src/helloworld.c
+ 
+Building file: ../src/platform.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/platform.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../16pt_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/platform.d" -MT"src/platform.o" -o "src/platform.o" "../src/platform.c"
+Finished building: ../src/platform.c
+ 
+Building target: 16pt.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../16pt_bsp/ps7_cortexa9_0/lib -o "16pt.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: 16pt.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size 16pt.elf  |tee "16pt.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  19384	   1148	  22568	  43100	   a85c	16pt.elf
+Finished building: 16pt.elf.size
+ 
+23:41:51 **** Auto Build of configuration Debug for project 16pt ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/benchmarking.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/benchmarking.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../16pt_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/benchmarking.d" -MT"src/benchmarking.o" -o "src/benchmarking.o" "../src/benchmarking.c"
+../src/benchmarking.c: In function 'run_benchmark_single':
+../src/benchmarking.c:107:42: warning: passing argument 1 of 'pBenchmarkcase->validator' makes integer from pointer without a cast [-Wint-conversion]
+   uiSuccess += pBenchmarkcase->validator(pBenchmarkcase->uiParam[0], pBenchmarkcase->uiParam[1], pBenchmarkcase->uiParam[2]);
+                                          ^~~~~~~~~~~~~~
+../src/benchmarking.c:107:42: note: expected 'int' but argument is of type 'my_complex * {aka struct <anonymous> *}'
+../src/benchmarking.c:107:70: warning: passing argument 2 of 'pBenchmarkcase->validator' makes integer from pointer without a cast [-Wint-conversion]
+   uiSuccess += pBenchmarkcase->validator(pBenchmarkcase->uiParam[0], pBenchmarkcase->uiParam[1], pBenchmarkcase->uiParam[2]);
+                                                                      ^~~~~~~~~~~~~~
+../src/benchmarking.c:107:70: note: expected 'int' but argument is of type 'my_complex * {aka struct <anonymous> *}'
+../src/benchmarking.c:107:98: warning: passing argument 3 of 'pBenchmarkcase->validator' makes integer from pointer without a cast [-Wint-conversion]
+   uiSuccess += pBenchmarkcase->validator(pBenchmarkcase->uiParam[0], pBenchmarkcase->uiParam[1], pBenchmarkcase->uiParam[2]);
+                                                                                                  ^~~~~~~~~~~~~~
+../src/benchmarking.c:107:98: note: expected 'int' but argument is of type 'my_complex * {aka struct <anonymous> *}'
+Finished building: ../src/benchmarking.c
+ 
+Building file: ../src/fft_dit.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/fft_dit.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../16pt_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/fft_dit.d" -MT"src/fft_dit.o" -o "src/fft_dit.o" "../src/fft_dit.c"
+Finished building: ../src/fft_dit.c
+ 
+Building file: ../src/main.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../16pt_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+In file included from ../src/main.c:32:0:
+../src/PL_DMA.h: In function 'DMA_preset':
+../src/PL_DMA.h:43:6: warning: variable 'Status' set but not used [-Wunused-but-set-variable]
+  int Status;
+      ^~~~~~
+../src/main.c: In function 'make_input':
+../src/main.c:56:12: warning: unused variable 'tmp1' [-Wunused-variable]
+  int tmp0, tmp1;
+            ^~~~
+../src/main.c:55:8: warning: unused variable 'num_rand' [-Wunused-variable]
+  short num_rand;
+        ^~~~~~~~
+../src/main.c: In function 'main':
+../src/main.c:161:53: warning: initialization from incompatible pointer type [-Wincompatible-pointer-types]
+   {"FFT Reference", TEST_ROUNDS, initializor_dummy, fft_ref,
+                                                     ^~~~~~~
+../src/main.c:161:53: note: (near initialization for 'BenchmarkCases[0].benchmarker')
+../src/main.c:163:7: warning: initialization from incompatible pointer type [-Wincompatible-pointer-types]
+    0, validator_dummy
+       ^~~~~~~~~~~~~~~
+../src/main.c:163:7: note: (near initialization for 'BenchmarkCases[0].validator')
+../src/main.c:165:56: warning: initialization from incompatible pointer type [-Wincompatible-pointer-types]
+   {"FFT Optimization", TEST_ROUNDS, initializor_dummy, fft_hw,
+                                                        ^~~~~~
+../src/main.c:165:56: note: (near initialization for 'BenchmarkCases[1].benchmarker')
+../src/main.c:18:23: warning: initialization makes pointer from integer without a cast [-Wint-conversion]
+ #define INPUT_BASE    0x11000000
+                       ^
+../src/main.c:166:6: note: in expansion of macro 'INPUT_BASE'
+     {INPUT_BASE, OUTPUT_BASE, LENGTH},
+      ^~~~~~~~~~
+../src/main.c:18:23: note: (near initialization for 'BenchmarkCases[1].uiParam[0]')
+ #define INPUT_BASE    0x11000000
+                       ^
+../src/main.c:166:6: note: in expansion of macro 'INPUT_BASE'
+     {INPUT_BASE, OUTPUT_BASE, LENGTH},
+      ^~~~~~~~~~
+../src/main.c:19:23: warning: initialization makes pointer from integer without a cast [-Wint-conversion]
+ #define OUTPUT_BASE   0x14000000
+                       ^
+../src/main.c:166:18: note: in expansion of macro 'OUTPUT_BASE'
+     {INPUT_BASE, OUTPUT_BASE, LENGTH},
+                  ^~~~~~~~~~~
+../src/main.c:19:23: note: (near initialization for 'BenchmarkCases[1].uiParam[1]')
+ #define OUTPUT_BASE   0x14000000
+                       ^
+../src/main.c:166:18: note: in expansion of macro 'OUTPUT_BASE'
+     {INPUT_BASE, OUTPUT_BASE, LENGTH},
+                  ^~~~~~~~~~~
+In file included from ../src/fft.h:4:0,
+                 from ../src/main.c:6:
+../src/parameter.h:47:11: warning: initialization makes pointer from integer without a cast [-Wint-conversion]
+ #define N 16
+           ^
+../src/main.c:20:17: note: in expansion of macro 'N'
+ #define LENGTH  N * FFT_ROUNDS
+                 ^
+../src/main.c:166:31: note: in expansion of macro 'LENGTH'
+     {INPUT_BASE, OUTPUT_BASE, LENGTH},
+                               ^~~~~~
+../src/parameter.h:47:11: note: (near initialization for 'BenchmarkCases[1].uiParam[2]')
+ #define N 16
+           ^
+../src/main.c:20:17: note: in expansion of macro 'N'
+ #define LENGTH  N * FFT_ROUNDS
+                 ^
+../src/main.c:166:31: note: in expansion of macro 'LENGTH'
+     {INPUT_BASE, OUTPUT_BASE, LENGTH},
+                               ^~~~~~
+../src/main.c:167:7: warning: initialization from incompatible pointer type [-Wincompatible-pointer-types]
+    0, validator_dummy
+       ^~~~~~~~~~~~~~~
+../src/main.c:167:7: note: (near initialization for 'BenchmarkCases[1].validator')
+Finished building: ../src/main.c
+ 
+Building target: 16pt.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../16pt_bsp/ps7_cortexa9_0/lib -o "16pt.elf"  ./src/benchmarking.o ./src/fft_dit.o ./src/helloworld.o ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+./src/main.o: In function `main':
+C:\LAB\TP_EC2022_hw\TP_EC2022_test9\TP_EC2022_test9.sdk\16pt\Debug/../src/main.c:77: multiple definition of `main'
+./src/helloworld.o:C:\LAB\TP_EC2022_hw\TP_EC2022_test9\TP_EC2022_test9.sdk\16pt\Debug/../src/helloworld.c:54: first defined here
+./src/fft_dit.o: In function `make_twiddle':
+C:\LAB\TP_EC2022_hw\TP_EC2022_test9\TP_EC2022_test9.sdk\16pt\Debug/../src/fft_dit.c:16: undefined reference to `cos'
+C:\LAB\TP_EC2022_hw\TP_EC2022_test9\TP_EC2022_test9.sdk\16pt\Debug/../src/fft_dit.c:17: undefined reference to `sin'
+./src/main.o: In function `main':
+C:\LAB\TP_EC2022_hw\TP_EC2022_test9\TP_EC2022_test9.sdk\16pt\Debug/../src/main.c:153: undefined reference to `log10'
+C:\LAB\TP_EC2022_hw\TP_EC2022_test9\TP_EC2022_test9.sdk\16pt\Debug/../src/main.c:154: undefined reference to `log10'
+collect2.exe: error: ld returned 1 exit status
+make: *** [16pt.elf] 오류 1
+23:41:56 **** Clean-only build of configuration Debug for project 16pt ****
+make clean 
+rm -rf  ./src/benchmarking.o ./src/fft_dit.o ./src/helloworld.o ./src/main.o ./src/platform.o  ./src/benchmarking.d ./src/fft_dit.d ./src/helloworld.d ./src/main.d ./src/platform.d  16pt.elf.size  16pt.elf
+ 
+23:41:56 **** Auto Build of configuration Debug for project 16pt ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/benchmarking.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/benchmarking.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../16pt_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/benchmarking.d" -MT"src/benchmarking.o" -o "src/benchmarking.o" "../src/benchmarking.c"
+../src/benchmarking.c: In function 'run_benchmark_single':
+../src/benchmarking.c:107:42: warning: passing argument 1 of 'pBenchmarkcase->validator' makes integer from pointer without a cast [-Wint-conversion]
+   uiSuccess += pBenchmarkcase->validator(pBenchmarkcase->uiParam[0], pBenchmarkcase->uiParam[1], pBenchmarkcase->uiParam[2]);
+                                          ^~~~~~~~~~~~~~
+../src/benchmarking.c:107:42: note: expected 'int' but argument is of type 'my_complex * {aka struct <anonymous> *}'
+../src/benchmarking.c:107:70: warning: passing argument 2 of 'pBenchmarkcase->validator' makes integer from pointer without a cast [-Wint-conversion]
+   uiSuccess += pBenchmarkcase->validator(pBenchmarkcase->uiParam[0], pBenchmarkcase->uiParam[1], pBenchmarkcase->uiParam[2]);
+                                                                      ^~~~~~~~~~~~~~
+../src/benchmarking.c:107:70: note: expected 'int' but argument is of type 'my_complex * {aka struct <anonymous> *}'
+../src/benchmarking.c:107:98: warning: passing argument 3 of 'pBenchmarkcase->validator' makes integer from pointer without a cast [-Wint-conversion]
+   uiSuccess += pBenchmarkcase->validator(pBenchmarkcase->uiParam[0], pBenchmarkcase->uiParam[1], pBenchmarkcase->uiParam[2]);
+                                                                                                  ^~~~~~~~~~~~~~
+../src/benchmarking.c:107:98: note: expected 'int' but argument is of type 'my_complex * {aka struct <anonymous> *}'
+Finished building: ../src/benchmarking.c
+ 
+Building file: ../src/fft_dit.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/fft_dit.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../16pt_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/fft_dit.d" -MT"src/fft_dit.o" -o "src/fft_dit.o" "../src/fft_dit.c"
+Finished building: ../src/fft_dit.c
+ 
+Building file: ../src/main.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../16pt_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+In file included from ../src/main.c:32:0:
+../src/PL_DMA.h: In function 'DMA_preset':
+../src/PL_DMA.h:43:6: warning: variable 'Status' set but not used [-Wunused-but-set-variable]
+  int Status;
+      ^~~~~~
+../src/main.c: In function 'make_input':
+../src/main.c:56:12: warning: unused variable 'tmp1' [-Wunused-variable]
+  int tmp0, tmp1;
+            ^~~~
+../src/main.c:55:8: warning: unused variable 'num_rand' [-Wunused-variable]
+  short num_rand;
+        ^~~~~~~~
+../src/main.c: In function 'main':
+../src/main.c:161:53: warning: initialization from incompatible pointer type [-Wincompatible-pointer-types]
+   {"FFT Reference", TEST_ROUNDS, initializor_dummy, fft_ref,
+                                                     ^~~~~~~
+../src/main.c:161:53: note: (near initialization for 'BenchmarkCases[0].benchmarker')
+../src/main.c:163:7: warning: initialization from incompatible pointer type [-Wincompatible-pointer-types]
+    0, validator_dummy
+       ^~~~~~~~~~~~~~~
+../src/main.c:163:7: note: (near initialization for 'BenchmarkCases[0].validator')
+../src/main.c:165:56: warning: initialization from incompatible pointer type [-Wincompatible-pointer-types]
+   {"FFT Optimization", TEST_ROUNDS, initializor_dummy, fft_hw,
+                                                        ^~~~~~
+../src/main.c:165:56: note: (near initialization for 'BenchmarkCases[1].benchmarker')
+../src/main.c:18:23: warning: initialization makes pointer from integer without a cast [-Wint-conversion]
+ #define INPUT_BASE    0x11000000
+                       ^
+../src/main.c:166:6: note: in expansion of macro 'INPUT_BASE'
+     {INPUT_BASE, OUTPUT_BASE, LENGTH},
+      ^~~~~~~~~~
+../src/main.c:18:23: note: (near initialization for 'BenchmarkCases[1].uiParam[0]')
+ #define INPUT_BASE    0x11000000
+                       ^
+../src/main.c:166:6: note: in expansion of macro 'INPUT_BASE'
+     {INPUT_BASE, OUTPUT_BASE, LENGTH},
+      ^~~~~~~~~~
+../src/main.c:19:23: warning: initialization makes pointer from integer without a cast [-Wint-conversion]
+ #define OUTPUT_BASE   0x14000000
+                       ^
+../src/main.c:166:18: note: in expansion of macro 'OUTPUT_BASE'
+     {INPUT_BASE, OUTPUT_BASE, LENGTH},
+                  ^~~~~~~~~~~
+../src/main.c:19:23: note: (near initialization for 'BenchmarkCases[1].uiParam[1]')
+ #define OUTPUT_BASE   0x14000000
+                       ^
+../src/main.c:166:18: note: in expansion of macro 'OUTPUT_BASE'
+     {INPUT_BASE, OUTPUT_BASE, LENGTH},
+                  ^~~~~~~~~~~
+In file included from ../src/fft.h:4:0,
+                 from ../src/main.c:6:
+../src/parameter.h:47:11: warning: initialization makes pointer from integer without a cast [-Wint-conversion]
+ #define N 16
+           ^
+../src/main.c:20:17: note: in expansion of macro 'N'
+ #define LENGTH  N * FFT_ROUNDS
+                 ^
+../src/main.c:166:31: note: in expansion of macro 'LENGTH'
+     {INPUT_BASE, OUTPUT_BASE, LENGTH},
+                               ^~~~~~
+../src/parameter.h:47:11: note: (near initialization for 'BenchmarkCases[1].uiParam[2]')
+ #define N 16
+           ^
+../src/main.c:20:17: note: in expansion of macro 'N'
+ #define LENGTH  N * FFT_ROUNDS
+                 ^
+../src/main.c:166:31: note: in expansion of macro 'LENGTH'
+     {INPUT_BASE, OUTPUT_BASE, LENGTH},
+                               ^~~~~~
+../src/main.c:167:7: warning: initialization from incompatible pointer type [-Wincompatible-pointer-types]
+    0, validator_dummy
+       ^~~~~~~~~~~~~~~
+../src/main.c:167:7: note: (near initialization for 'BenchmarkCases[1].validator')
+Finished building: ../src/main.c
+ 
+Building file: ../src/platform.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/platform.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../16pt_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/platform.d" -MT"src/platform.o" -o "src/platform.o" "../src/platform.c"
+Finished building: ../src/platform.c
+ 
+Building target: 16pt.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../16pt_bsp/ps7_cortexa9_0/lib -o "16pt.elf"  ./src/benchmarking.o ./src/fft_dit.o ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+./src/fft_dit.o: In function `make_twiddle':
+C:\LAB\TP_EC2022_hw\TP_EC2022_test9\TP_EC2022_test9.sdk\16pt\Debug/../src/fft_dit.c:16: undefined reference to `cos'
+C:\LAB\TP_EC2022_hw\TP_EC2022_test9\TP_EC2022_test9.sdk\16pt\Debug/../src/fft_dit.c:17: undefined reference to `sin'
+./src/main.o: In function `main':
+C:\LAB\TP_EC2022_hw\TP_EC2022_test9\TP_EC2022_test9.sdk\16pt\Debug/../src/main.c:153: undefined reference to `log10'
+C:\LAB\TP_EC2022_hw\TP_EC2022_test9\TP_EC2022_test9.sdk\16pt\Debug/../src/main.c:154: undefined reference to `log10'
+collect2.exe: error: ld returned 1 exit status
+make: *** [16pt.elf] 오류 1
+23:42:07 **** Clean-only build of configuration Debug for project 16pt ****
+make clean 
+rm -rf  ./src/benchmarking.o ./src/fft_dit.o ./src/main.o ./src/platform.o  ./src/benchmarking.d ./src/fft_dit.d ./src/main.d ./src/platform.d  16pt.elf.size  16pt.elf
+ 
+23:42:07 **** Auto Build of configuration Debug for project 16pt ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/benchmarking.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O3 -g3 -c -fmessage-length=0 -MT"src/benchmarking.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../16pt_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/benchmarking.d" -MT"src/benchmarking.o" -o "src/benchmarking.o" "../src/benchmarking.c"
+../src/benchmarking.c: In function 'run_benchmark_single':
+../src/benchmarking.c:107:42: warning: passing argument 1 of 'pBenchmarkcase->validator' makes integer from pointer without a cast [-Wint-conversion]
+   uiSuccess += pBenchmarkcase->validator(pBenchmarkcase->uiParam[0], pBenchmarkcase->uiParam[1], pBenchmarkcase->uiParam[2]);
+                                          ^~~~~~~~~~~~~~
+../src/benchmarking.c:107:42: note: expected 'int' but argument is of type 'my_complex * {aka struct <anonymous> *}'
+../src/benchmarking.c:107:70: warning: passing argument 2 of 'pBenchmarkcase->validator' makes integer from pointer without a cast [-Wint-conversion]
+   uiSuccess += pBenchmarkcase->validator(pBenchmarkcase->uiParam[0], pBenchmarkcase->uiParam[1], pBenchmarkcase->uiParam[2]);
+                                                                      ^~~~~~~~~~~~~~
+../src/benchmarking.c:107:70: note: expected 'int' but argument is of type 'my_complex * {aka struct <anonymous> *}'
+../src/benchmarking.c:107:98: warning: passing argument 3 of 'pBenchmarkcase->validator' makes integer from pointer without a cast [-Wint-conversion]
+   uiSuccess += pBenchmarkcase->validator(pBenchmarkcase->uiParam[0], pBenchmarkcase->uiParam[1], pBenchmarkcase->uiParam[2]);
+                                                                                                  ^~~~~~~~~~~~~~
+../src/benchmarking.c:107:98: note: expected 'int' but argument is of type 'my_complex * {aka struct <anonymous> *}'
+Finished building: ../src/benchmarking.c
+ 
+Building file: ../src/fft_dit.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O3 -g3 -c -fmessage-length=0 -MT"src/fft_dit.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../16pt_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/fft_dit.d" -MT"src/fft_dit.o" -o "src/fft_dit.o" "../src/fft_dit.c"
+Finished building: ../src/fft_dit.c
+ 
+Building file: ../src/main.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O3 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../16pt_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+In file included from ../src/main.c:32:0:
+../src/PL_DMA.h: In function 'DMA_preset':
+../src/PL_DMA.h:43:6: warning: variable 'Status' set but not used [-Wunused-but-set-variable]
+  int Status;
+      ^~~~~~
+../src/main.c: In function 'make_input':
+../src/main.c:56:12: warning: unused variable 'tmp1' [-Wunused-variable]
+  int tmp0, tmp1;
+            ^~~~
+../src/main.c:55:8: warning: unused variable 'num_rand' [-Wunused-variable]
+  short num_rand;
+        ^~~~~~~~
+../src/main.c: In function 'main':
+../src/main.c:161:53: warning: initialization from incompatible pointer type [-Wincompatible-pointer-types]
+   {"FFT Reference", TEST_ROUNDS, initializor_dummy, fft_ref,
+                                                     ^~~~~~~
+../src/main.c:161:53: note: (near initialization for 'BenchmarkCases[0].benchmarker')
+../src/main.c:163:7: warning: initialization from incompatible pointer type [-Wincompatible-pointer-types]
+    0, validator_dummy
+       ^~~~~~~~~~~~~~~
+../src/main.c:163:7: note: (near initialization for 'BenchmarkCases[0].validator')
+../src/main.c:165:56: warning: initialization from incompatible pointer type [-Wincompatible-pointer-types]
+   {"FFT Optimization", TEST_ROUNDS, initializor_dummy, fft_hw,
+                                                        ^~~~~~
+../src/main.c:165:56: note: (near initialization for 'BenchmarkCases[1].benchmarker')
+../src/main.c:18:23: warning: initialization makes pointer from integer without a cast [-Wint-conversion]
+ #define INPUT_BASE    0x11000000
+                       ^
+../src/main.c:166:6: note: in expansion of macro 'INPUT_BASE'
+     {INPUT_BASE, OUTPUT_BASE, LENGTH},
+      ^~~~~~~~~~
+../src/main.c:18:23: note: (near initialization for 'BenchmarkCases[1].uiParam[0]')
+ #define INPUT_BASE    0x11000000
+                       ^
+../src/main.c:166:6: note: in expansion of macro 'INPUT_BASE'
+     {INPUT_BASE, OUTPUT_BASE, LENGTH},
+      ^~~~~~~~~~
+../src/main.c:19:23: warning: initialization makes pointer from integer without a cast [-Wint-conversion]
+ #define OUTPUT_BASE   0x14000000
+                       ^
+../src/main.c:166:18: note: in expansion of macro 'OUTPUT_BASE'
+     {INPUT_BASE, OUTPUT_BASE, LENGTH},
+                  ^~~~~~~~~~~
+../src/main.c:19:23: note: (near initialization for 'BenchmarkCases[1].uiParam[1]')
+ #define OUTPUT_BASE   0x14000000
+                       ^
+../src/main.c:166:18: note: in expansion of macro 'OUTPUT_BASE'
+     {INPUT_BASE, OUTPUT_BASE, LENGTH},
+                  ^~~~~~~~~~~
+In file included from ../src/fft.h:4:0,
+                 from ../src/main.c:6:
+../src/parameter.h:47:11: warning: initialization makes pointer from integer without a cast [-Wint-conversion]
+ #define N 16
+           ^
+../src/main.c:20:17: note: in expansion of macro 'N'
+ #define LENGTH  N * FFT_ROUNDS
+                 ^
+../src/main.c:166:31: note: in expansion of macro 'LENGTH'
+     {INPUT_BASE, OUTPUT_BASE, LENGTH},
+                               ^~~~~~
+../src/parameter.h:47:11: note: (near initialization for 'BenchmarkCases[1].uiParam[2]')
+ #define N 16
+           ^
+../src/main.c:20:17: note: in expansion of macro 'N'
+ #define LENGTH  N * FFT_ROUNDS
+                 ^
+../src/main.c:166:31: note: in expansion of macro 'LENGTH'
+     {INPUT_BASE, OUTPUT_BASE, LENGTH},
+                               ^~~~~~
+../src/main.c:167:7: warning: initialization from incompatible pointer type [-Wincompatible-pointer-types]
+    0, validator_dummy
+       ^~~~~~~~~~~~~~~
+../src/main.c:167:7: note: (near initialization for 'BenchmarkCases[1].validator')
+Finished building: ../src/main.c
+ 
+Building file: ../src/platform.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O3 -g3 -c -fmessage-length=0 -MT"src/platform.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../16pt_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/platform.d" -MT"src/platform.o" -o "src/platform.o" "../src/platform.c"
+Finished building: ../src/platform.c
+ 
+Building target: 16pt.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../16pt_bsp/ps7_cortexa9_0/lib -o "16pt.elf"  ./src/benchmarking.o ./src/fft_dit.o ./src/main.o ./src/platform.o   -lm -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: 16pt.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size 16pt.elf  |tee "16pt.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  88312	  84572	  25200	 198084	  305c4	16pt.elf
+Finished building: 16pt.elf.size
+ 
+23:42:19 **** Clean-only build of configuration Debug for project 16pt ****
+make clean 
+rm -rf  ./src/benchmarking.o ./src/fft_dit.o ./src/main.o ./src/platform.o  ./src/benchmarking.d ./src/fft_dit.d ./src/main.d ./src/platform.d  16pt.elf.size  16pt.elf
+ 
+23:42:19 **** Auto Build of configuration Debug for project 16pt ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/benchmarking.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O3 -g3 -c -fmessage-length=0 -MT"src/benchmarking.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../16pt_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/benchmarking.d" -MT"src/benchmarking.o" -o "src/benchmarking.o" "../src/benchmarking.c"
+../src/benchmarking.c: In function 'run_benchmark_single':
+../src/benchmarking.c:107:42: warning: passing argument 1 of 'pBenchmarkcase->validator' makes integer from pointer without a cast [-Wint-conversion]
+   uiSuccess += pBenchmarkcase->validator(pBenchmarkcase->uiParam[0], pBenchmarkcase->uiParam[1], pBenchmarkcase->uiParam[2]);
+                                          ^~~~~~~~~~~~~~
+../src/benchmarking.c:107:42: note: expected 'int' but argument is of type 'my_complex * {aka struct <anonymous> *}'
+../src/benchmarking.c:107:70: warning: passing argument 2 of 'pBenchmarkcase->validator' makes integer from pointer without a cast [-Wint-conversion]
+   uiSuccess += pBenchmarkcase->validator(pBenchmarkcase->uiParam[0], pBenchmarkcase->uiParam[1], pBenchmarkcase->uiParam[2]);
+                                                                      ^~~~~~~~~~~~~~
+../src/benchmarking.c:107:70: note: expected 'int' but argument is of type 'my_complex * {aka struct <anonymous> *}'
+../src/benchmarking.c:107:98: warning: passing argument 3 of 'pBenchmarkcase->validator' makes integer from pointer without a cast [-Wint-conversion]
+   uiSuccess += pBenchmarkcase->validator(pBenchmarkcase->uiParam[0], pBenchmarkcase->uiParam[1], pBenchmarkcase->uiParam[2]);
+                                                                                                  ^~~~~~~~~~~~~~
+../src/benchmarking.c:107:98: note: expected 'int' but argument is of type 'my_complex * {aka struct <anonymous> *}'
+Finished building: ../src/benchmarking.c
+ 
+Building file: ../src/fft_dit.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O3 -g3 -c -fmessage-length=0 -MT"src/fft_dit.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../16pt_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/fft_dit.d" -MT"src/fft_dit.o" -o "src/fft_dit.o" "../src/fft_dit.c"
+Finished building: ../src/fft_dit.c
+ 
+Building file: ../src/main.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O3 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../16pt_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+In file included from ../src/main.c:32:0:
+../src/PL_DMA.h: In function 'DMA_preset':
+../src/PL_DMA.h:43:6: warning: variable 'Status' set but not used [-Wunused-but-set-variable]
+  int Status;
+      ^~~~~~
+../src/main.c: In function 'make_input':
+../src/main.c:56:12: warning: unused variable 'tmp1' [-Wunused-variable]
+  int tmp0, tmp1;
+            ^~~~
+../src/main.c:55:8: warning: unused variable 'num_rand' [-Wunused-variable]
+  short num_rand;
+        ^~~~~~~~
+../src/main.c: In function 'main':
+../src/main.c:161:53: warning: initialization from incompatible pointer type [-Wincompatible-pointer-types]
+   {"FFT Reference", TEST_ROUNDS, initializor_dummy, fft_ref,
+                                                     ^~~~~~~
+../src/main.c:161:53: note: (near initialization for 'BenchmarkCases[0].benchmarker')
+../src/main.c:163:7: warning: initialization from incompatible pointer type [-Wincompatible-pointer-types]
+    0, validator_dummy
+       ^~~~~~~~~~~~~~~
+../src/main.c:163:7: note: (near initialization for 'BenchmarkCases[0].validator')
+../src/main.c:165:56: warning: initialization from incompatible pointer type [-Wincompatible-pointer-types]
+   {"FFT Optimization", TEST_ROUNDS, initializor_dummy, fft_hw,
+                                                        ^~~~~~
+../src/main.c:165:56: note: (near initialization for 'BenchmarkCases[1].benchmarker')
+../src/main.c:18:23: warning: initialization makes pointer from integer without a cast [-Wint-conversion]
+ #define INPUT_BASE    0x11000000
+                       ^
+../src/main.c:166:6: note: in expansion of macro 'INPUT_BASE'
+     {INPUT_BASE, OUTPUT_BASE, LENGTH},
+      ^~~~~~~~~~
+../src/main.c:18:23: note: (near initialization for 'BenchmarkCases[1].uiParam[0]')
+ #define INPUT_BASE    0x11000000
+                       ^
+../src/main.c:166:6: note: in expansion of macro 'INPUT_BASE'
+     {INPUT_BASE, OUTPUT_BASE, LENGTH},
+      ^~~~~~~~~~
+../src/main.c:19:23: warning: initialization makes pointer from integer without a cast [-Wint-conversion]
+ #define OUTPUT_BASE   0x14000000
+                       ^
+../src/main.c:166:18: note: in expansion of macro 'OUTPUT_BASE'
+     {INPUT_BASE, OUTPUT_BASE, LENGTH},
+                  ^~~~~~~~~~~
+../src/main.c:19:23: note: (near initialization for 'BenchmarkCases[1].uiParam[1]')
+ #define OUTPUT_BASE   0x14000000
+                       ^
+../src/main.c:166:18: note: in expansion of macro 'OUTPUT_BASE'
+     {INPUT_BASE, OUTPUT_BASE, LENGTH},
+                  ^~~~~~~~~~~
+In file included from ../src/fft.h:4:0,
+                 from ../src/main.c:6:
+../src/parameter.h:47:11: warning: initialization makes pointer from integer without a cast [-Wint-conversion]
+ #define N 16
+           ^
+../src/main.c:20:17: note: in expansion of macro 'N'
+ #define LENGTH  N * FFT_ROUNDS
+                 ^
+../src/main.c:166:31: note: in expansion of macro 'LENGTH'
+     {INPUT_BASE, OUTPUT_BASE, LENGTH},
+                               ^~~~~~
+../src/parameter.h:47:11: note: (near initialization for 'BenchmarkCases[1].uiParam[2]')
+ #define N 16
+           ^
+../src/main.c:20:17: note: in expansion of macro 'N'
+ #define LENGTH  N * FFT_ROUNDS
+                 ^
+../src/main.c:166:31: note: in expansion of macro 'LENGTH'
+     {INPUT_BASE, OUTPUT_BASE, LENGTH},
+                               ^~~~~~
+../src/main.c:167:7: warning: initialization from incompatible pointer type [-Wincompatible-pointer-types]
+    0, validator_dummy
+       ^~~~~~~~~~~~~~~
+../src/main.c:167:7: note: (near initialization for 'BenchmarkCases[1].validator')
+Finished building: ../src/main.c
+ 
+Building file: ../src/platform.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O3 -g3 -c -fmessage-length=0 -MT"src/platform.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../16pt_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/platform.d" -MT"src/platform.o" -o "src/platform.o" "../src/platform.c"
+Finished building: ../src/platform.c
+ 
+Building target: 16pt.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../16pt_bsp/ps7_cortexa9_0/lib -o "16pt.elf"  ./src/benchmarking.o ./src/fft_dit.o ./src/main.o ./src/platform.o   -lm -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: 16pt.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size 16pt.elf  |tee "16pt.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  88312	  84572	20980336	21153220	142c5c4	16pt.elf
+Finished building: 16pt.elf.size
+ 
+23:42:34 **** Incremental Build of configuration Debug for project 16pt ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: `main-build'를 위해 할 일이 없습니다

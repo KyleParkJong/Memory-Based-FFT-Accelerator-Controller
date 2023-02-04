@@ -1,0 +1,199 @@
+22:05:05 INFO  : Registering command handlers for SDK TCF services
+22:05:05 INFO  : Launching XSCT server: xsct.bat -interactive C:\LAB\TP_EC22_64pt_hw_r1\TP_EC2022_64pt_bd\TP_EC2022_64pt_bd.sdk\temp_xsdb_launch_script.tcl
+22:05:07 INFO  : XSCT server has started successfully.
+22:05:08 INFO  : Successfully done setting XSCT server connection channel  
+22:05:08 INFO  : Successfully done setting SDK workspace  
+22:05:08 INFO  : Processing command line option -hwspec C:/LAB/TP_EC22_64pt_hw_r1/TP_EC2022_64pt_bd/TP_EC2022_64pt_bd.sdk/design_1_wrapper.hdf.
+22:06:32 INFO  : Inferring section assignments and sizes from elf file: C:\LAB\TP_EC22_64pt_hw_r1\TP_EC2022_64pt_bd\TP_EC2022_64pt_bd.sdk\64pt_fft\Debug\64pt_fft.elf
+22:06:50 INFO  : Successfully generated C:\LAB\TP_EC22_64pt_hw_r1\TP_EC2022_64pt_bd\TP_EC2022_64pt_bd.sdk\64pt_fft\src\lscript.ld.
+22:06:50 INFO  : Applying linker script to all configurations of project 64pt_fft.
+22:06:50 INFO  : Setting rebuild state to true for all configurations of project 64pt_fft.
+22:06:59 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+22:06:59 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351A8236CA" && level==0} -index 1' command is executed.
+22:07:02 INFO  : FPGA configured successfully with bitstream "C:/LAB/TP_EC22_64pt_hw_r1/TP_EC2022_64pt_bd/TP_EC2022_64pt_bd.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+22:07:06 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351A8236CA" && level==0} -index 1' command is executed.
+22:07:06 INFO  : 'fpga -state' command is executed.
+22:07:06 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+22:07:07 INFO  : Jtag cable 'Digilent Zybo Z7 210351A8236CA' is selected.
+22:07:07 INFO  : 'jtag frequency' command is executed.
+22:07:07 INFO  : Sourcing of 'C:/LAB/TP_EC22_64pt_hw_r1/TP_EC2022_64pt_bd/TP_EC2022_64pt_bd.sdk/design_1_wrapper_hw_platform_0/ps7_init.tcl' is done.
+22:07:07 INFO  : Context for 'APU' is selected.
+22:07:07 INFO  : Hardware design information is loaded from 'C:/LAB/TP_EC22_64pt_hw_r1/TP_EC2022_64pt_bd/TP_EC2022_64pt_bd.sdk/design_1_wrapper_hw_platform_0/system.hdf'.
+22:07:07 INFO  : 'configparams force-mem-access 1' command is executed.
+22:07:07 INFO  : Context for 'APU' is selected.
+22:07:07 INFO  : 'stop' command is executed.
+22:07:07 INFO  : 'ps7_init' command is executed.
+22:07:07 INFO  : 'ps7_post_config' command is executed.
+22:07:07 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+22:07:07 INFO  : Processor reset is completed for 'ps7_cortexa9_0'.
+22:07:07 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+22:07:07 INFO  : The application 'C:/LAB/TP_EC22_64pt_hw_r1/TP_EC2022_64pt_bd/TP_EC2022_64pt_bd.sdk/64pt_fft/Debug/64pt_fft.elf' is downloaded to processor 'ps7_cortexa9_0'.
+22:07:07 INFO  : 'configparams force-mem-access 0' command is executed.
+22:07:07 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+source C:/LAB/TP_EC22_64pt_hw_r1/TP_EC2022_64pt_bd/TP_EC2022_64pt_bd.sdk/design_1_wrapper_hw_platform_0/ps7_init.tcl
+targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent Zybo Z7 210351A8236CA"} -index 0
+loadhw -hw C:/LAB/TP_EC22_64pt_hw_r1/TP_EC2022_64pt_bd/TP_EC2022_64pt_bd.sdk/design_1_wrapper_hw_platform_0/system.hdf -mem-ranges [list {0x40000000 0xbfffffff}]
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent Zybo Z7 210351A8236CA"} -index 0
+stop
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent Zybo Z7 210351A8236CA"} -index 0
+rst -processor
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent Zybo Z7 210351A8236CA"} -index 0
+dow C:/LAB/TP_EC22_64pt_hw_r1/TP_EC2022_64pt_bd/TP_EC2022_64pt_bd.sdk/64pt_fft/Debug/64pt_fft.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+22:07:07 INFO  : Memory regions updated for context APU
+22:07:07 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+22:07:08 INFO  : 'con' command is executed.
+22:07:08 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent Zybo Z7 210351A8236CA"} -index 0
+con
+----------------End of Script----------------
+
+22:07:08 INFO  : Launch script is exported to file 'C:\LAB\TP_EC22_64pt_hw_r1\TP_EC2022_64pt_bd\TP_EC2022_64pt_bd.sdk\.sdk\launch_scripts\xilinx_c-c++_application_(system_debugger)\system_debugger_using_debug_64pt_fft.elf_on_local.tcl'
+22:21:04 INFO  : Disconnected from the channel tcfchan#1.
+22:21:05 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351A8236CA" && level==0} -index 1' command is executed.
+22:21:05 INFO  : 'fpga -state' command is executed.
+22:21:05 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+22:21:05 INFO  : Jtag cable 'Digilent Zybo Z7 210351A8236CA' is selected.
+22:21:05 INFO  : 'jtag frequency' command is executed.
+22:21:05 INFO  : Sourcing of 'C:/LAB/TP_EC22_64pt_hw_r1/TP_EC2022_64pt_bd/TP_EC2022_64pt_bd.sdk/design_1_wrapper_hw_platform_0/ps7_init.tcl' is done.
+22:21:05 INFO  : Context for 'APU' is selected.
+22:21:07 INFO  : Hardware design information is loaded from 'C:/LAB/TP_EC22_64pt_hw_r1/TP_EC2022_64pt_bd/TP_EC2022_64pt_bd.sdk/design_1_wrapper_hw_platform_0/system.hdf'.
+22:21:07 INFO  : 'configparams force-mem-access 1' command is executed.
+22:21:07 INFO  : Context for 'APU' is selected.
+22:21:07 INFO  : 'stop' command is executed.
+22:21:07 INFO  : 'ps7_init' command is executed.
+22:21:07 INFO  : 'ps7_post_config' command is executed.
+22:21:07 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+22:21:07 INFO  : Processor reset is completed for 'ps7_cortexa9_0'.
+22:21:07 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+22:21:08 INFO  : The application 'C:/LAB/TP_EC22_64pt_hw_r1/TP_EC2022_64pt_bd/TP_EC2022_64pt_bd.sdk/64pt_fft/Debug/64pt_fft.elf' is downloaded to processor 'ps7_cortexa9_0'.
+22:21:08 INFO  : 'configparams force-mem-access 0' command is executed.
+22:21:08 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+source C:/LAB/TP_EC22_64pt_hw_r1/TP_EC2022_64pt_bd/TP_EC2022_64pt_bd.sdk/design_1_wrapper_hw_platform_0/ps7_init.tcl
+targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent Zybo Z7 210351A8236CA"} -index 0
+loadhw -hw C:/LAB/TP_EC22_64pt_hw_r1/TP_EC2022_64pt_bd/TP_EC2022_64pt_bd.sdk/design_1_wrapper_hw_platform_0/system.hdf -mem-ranges [list {0x40000000 0xbfffffff}]
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent Zybo Z7 210351A8236CA"} -index 0
+stop
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent Zybo Z7 210351A8236CA"} -index 0
+rst -processor
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent Zybo Z7 210351A8236CA"} -index 0
+dow C:/LAB/TP_EC22_64pt_hw_r1/TP_EC2022_64pt_bd/TP_EC2022_64pt_bd.sdk/64pt_fft/Debug/64pt_fft.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+22:21:08 INFO  : Memory regions updated for context APU
+22:21:08 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+22:21:08 INFO  : 'con' command is executed.
+22:21:08 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent Zybo Z7 210351A8236CA"} -index 0
+con
+----------------End of Script----------------
+
+22:21:08 INFO  : Launch script is exported to file 'C:\LAB\TP_EC22_64pt_hw_r1\TP_EC2022_64pt_bd\TP_EC2022_64pt_bd.sdk\.sdk\launch_scripts\xilinx_c-c++_application_(system_debugger)\system_debugger_using_debug_64pt_fft.elf_on_local.tcl'
+22:21:45 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+22:21:45 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351A8236CA" && level==0} -index 1' command is executed.
+22:21:47 INFO  : FPGA configured successfully with bitstream "C:/LAB/TP_EC22_64pt_hw_r1/TP_EC2022_64pt_bd/TP_EC2022_64pt_bd.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+22:21:50 INFO  : Disconnected from the channel tcfchan#2.
+22:21:51 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351A8236CA" && level==0} -index 1' command is executed.
+22:21:51 INFO  : 'fpga -state' command is executed.
+22:21:51 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+22:21:51 INFO  : Jtag cable 'Digilent Zybo Z7 210351A8236CA' is selected.
+22:21:51 INFO  : 'jtag frequency' command is executed.
+22:21:51 INFO  : Sourcing of 'C:/LAB/TP_EC22_64pt_hw_r1/TP_EC2022_64pt_bd/TP_EC2022_64pt_bd.sdk/design_1_wrapper_hw_platform_0/ps7_init.tcl' is done.
+22:21:51 INFO  : Context for 'APU' is selected.
+22:21:53 INFO  : Hardware design information is loaded from 'C:/LAB/TP_EC22_64pt_hw_r1/TP_EC2022_64pt_bd/TP_EC2022_64pt_bd.sdk/design_1_wrapper_hw_platform_0/system.hdf'.
+22:21:53 INFO  : 'configparams force-mem-access 1' command is executed.
+22:21:53 INFO  : Context for 'APU' is selected.
+22:21:53 INFO  : 'stop' command is executed.
+22:21:53 INFO  : 'ps7_init' command is executed.
+22:21:53 INFO  : 'ps7_post_config' command is executed.
+22:21:53 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+22:21:53 INFO  : Processor reset is completed for 'ps7_cortexa9_0'.
+22:21:53 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+22:21:54 INFO  : The application 'C:/LAB/TP_EC22_64pt_hw_r1/TP_EC2022_64pt_bd/TP_EC2022_64pt_bd.sdk/64pt_fft/Debug/64pt_fft.elf' is downloaded to processor 'ps7_cortexa9_0'.
+22:21:54 INFO  : 'configparams force-mem-access 0' command is executed.
+22:21:54 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+source C:/LAB/TP_EC22_64pt_hw_r1/TP_EC2022_64pt_bd/TP_EC2022_64pt_bd.sdk/design_1_wrapper_hw_platform_0/ps7_init.tcl
+targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent Zybo Z7 210351A8236CA"} -index 0
+loadhw -hw C:/LAB/TP_EC22_64pt_hw_r1/TP_EC2022_64pt_bd/TP_EC2022_64pt_bd.sdk/design_1_wrapper_hw_platform_0/system.hdf -mem-ranges [list {0x40000000 0xbfffffff}]
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent Zybo Z7 210351A8236CA"} -index 0
+stop
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent Zybo Z7 210351A8236CA"} -index 0
+rst -processor
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent Zybo Z7 210351A8236CA"} -index 0
+dow C:/LAB/TP_EC22_64pt_hw_r1/TP_EC2022_64pt_bd/TP_EC2022_64pt_bd.sdk/64pt_fft/Debug/64pt_fft.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+22:21:54 INFO  : Memory regions updated for context APU
+22:21:54 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+22:21:54 INFO  : 'con' command is executed.
+22:21:54 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent Zybo Z7 210351A8236CA"} -index 0
+con
+----------------End of Script----------------
+
+22:21:54 INFO  : Launch script is exported to file 'C:\LAB\TP_EC22_64pt_hw_r1\TP_EC2022_64pt_bd\TP_EC2022_64pt_bd.sdk\.sdk\launch_scripts\xilinx_c-c++_application_(system_debugger)\system_debugger_using_debug_64pt_fft.elf_on_local.tcl'
+22:24:40 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+22:24:40 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351A8236CA" && level==0} -index 1' command is executed.
+22:24:43 INFO  : FPGA configured successfully with bitstream "C:/LAB/TP_EC22_64pt_hw_r1/TP_EC2022_64pt_bd/TP_EC2022_64pt_bd.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+22:24:45 INFO  : Disconnected from the channel tcfchan#3.
+22:24:46 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351A8236CA" && level==0} -index 1' command is executed.
+22:24:46 INFO  : 'fpga -state' command is executed.
+22:24:46 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+22:24:46 INFO  : Jtag cable 'Digilent Zybo Z7 210351A8236CA' is selected.
+22:24:46 INFO  : 'jtag frequency' command is executed.
+22:24:46 INFO  : Sourcing of 'C:/LAB/TP_EC22_64pt_hw_r1/TP_EC2022_64pt_bd/TP_EC2022_64pt_bd.sdk/design_1_wrapper_hw_platform_0/ps7_init.tcl' is done.
+22:24:46 INFO  : Context for 'APU' is selected.
+22:24:48 INFO  : Hardware design information is loaded from 'C:/LAB/TP_EC22_64pt_hw_r1/TP_EC2022_64pt_bd/TP_EC2022_64pt_bd.sdk/design_1_wrapper_hw_platform_0/system.hdf'.
+22:24:48 INFO  : 'configparams force-mem-access 1' command is executed.
+22:24:48 INFO  : Context for 'APU' is selected.
+22:24:48 INFO  : 'stop' command is executed.
+22:24:48 INFO  : 'ps7_init' command is executed.
+22:24:48 INFO  : 'ps7_post_config' command is executed.
+22:24:48 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+22:24:48 INFO  : Processor reset is completed for 'ps7_cortexa9_0'.
+22:24:48 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+22:24:49 INFO  : The application 'C:/LAB/TP_EC22_64pt_hw_r1/TP_EC2022_64pt_bd/TP_EC2022_64pt_bd.sdk/64pt_fft/Debug/64pt_fft.elf' is downloaded to processor 'ps7_cortexa9_0'.
+22:24:49 INFO  : 'configparams force-mem-access 0' command is executed.
+22:24:49 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+source C:/LAB/TP_EC22_64pt_hw_r1/TP_EC2022_64pt_bd/TP_EC2022_64pt_bd.sdk/design_1_wrapper_hw_platform_0/ps7_init.tcl
+targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent Zybo Z7 210351A8236CA"} -index 0
+loadhw -hw C:/LAB/TP_EC22_64pt_hw_r1/TP_EC2022_64pt_bd/TP_EC2022_64pt_bd.sdk/design_1_wrapper_hw_platform_0/system.hdf -mem-ranges [list {0x40000000 0xbfffffff}]
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent Zybo Z7 210351A8236CA"} -index 0
+stop
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent Zybo Z7 210351A8236CA"} -index 0
+rst -processor
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent Zybo Z7 210351A8236CA"} -index 0
+dow C:/LAB/TP_EC22_64pt_hw_r1/TP_EC2022_64pt_bd/TP_EC2022_64pt_bd.sdk/64pt_fft/Debug/64pt_fft.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+22:24:49 INFO  : Memory regions updated for context APU
+22:24:49 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+22:24:49 INFO  : 'con' command is executed.
+22:24:49 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent Zybo Z7 210351A8236CA"} -index 0
+con
+----------------End of Script----------------
+
+22:24:49 INFO  : Launch script is exported to file 'C:\LAB\TP_EC22_64pt_hw_r1\TP_EC2022_64pt_bd\TP_EC2022_64pt_bd.sdk\.sdk\launch_scripts\xilinx_c-c++_application_(system_debugger)\system_debugger_using_debug_64pt_fft.elf_on_local.tcl'
+23:27:31 INFO  : Disconnected from the channel tcfchan#4.

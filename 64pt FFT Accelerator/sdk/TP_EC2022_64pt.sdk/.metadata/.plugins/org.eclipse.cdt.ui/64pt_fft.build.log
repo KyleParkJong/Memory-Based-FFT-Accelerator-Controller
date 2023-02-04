@@ -1,0 +1,8 @@
+22:24:44 **** Incremental Build of configuration Debug for project 64pt_fft ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: `main-build'를 위해 할 일이 없습니다
+
+22:24:44 Build Finished (took 265ms)
+
