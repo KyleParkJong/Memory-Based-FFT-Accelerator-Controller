@@ -6,7 +6,7 @@ Konkuk Univ. 3rd grade, Embedded Computing lecture - Park Jonghyuk, Ko Ryeowook
 
 ## > Things provided in class
 * Block diagram of the FFT Acclerator 
-* Code provided (Verilog HDL)
+* Code provided (__Verilog HDL__)
     + axis_fft.v, BF.v, FFT.v, FFTcore.v, MULT.v, TopFFT.v 
 * Code provided (C)
     + Reference SDK program 
@@ -24,7 +24,7 @@ Konkuk Univ. 3rd grade, Embedded Computing lecture - Park Jonghyuk, Ko Ryeowook
   <img src="/images/block_design.png" width="90%" height="90%" title="total loss" alt="total loss"></img>
 </p>
 
-+ more details : TP_EC22_r3.pdf
++ More details : TP_EC22_r3.pdf
 
 ## What we considered while designing the controller
 * Output result accuracy compared to reference output
@@ -38,14 +38,14 @@ Konkuk Univ. 3rd grade, Embedded Computing lecture - Park Jonghyuk, Ko Ryeowook
 * Zybo Z7-20
 
 # 2. Design
-* Our design : controller_16pt_2.v, controller_64pt.v
+* Our design : __controller_16pt_2.v__, __controller_64pt.v__
 * sdk_src main.c "fft_hw" function
 
 <p align="center">
   <img src="/images/fft_hw.png" width="60%" height="60%" title="total loss" alt="total loss"></img>
 </p>
 
-+ more details : TP_EC2022_16pt_5조.pdf, TP_EC2022_64pt_5조.pdf
++ More details : TP_EC2022_16pt_5조.pdf, TP_EC2022_64pt_5조.pdf
 
 # 3. Result
 * Accuracy (NSR) and speed compared to reference(only using SW) were evaluation criteria.
@@ -63,7 +63,7 @@ Konkuk Univ. 3rd grade, Embedded Computing lecture - Park Jonghyuk, Ko Ryeowook
 
 <img src="/images/64pt_result2.jpg" width="70%" height="70%" title="total loss" alt="total loss"></img>
 
-+ more details : TP_EC2022_16pt_5조.pdf, TP_EC2022_64pt_5조.pdf
++ More details : TP_EC2022_16pt_5조.pdf, TP_EC2022_64pt_5조.pdf
 
 # 4. What I learned
 * Improved my Verilog HDL and C language skills
