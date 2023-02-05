@@ -4,7 +4,7 @@ Konkuk Univ. 3rd grade, Embedded Computing lecture - Park Jonghyuk, Ko Ryeowook
 # 0. Key objectives of this Term project 
 * Designing a __controller__ for memory-based FFT Accelerator using Verilog HDL
 
-## Things provided in class
+## > Things provided in class
 * Block diagram of the FFT Acclerator 
 * Code provided (Verilog HDL)
     > axis_fft.v, BF.v, FFT.v, FFTcore.v, MULT.v, TopFFT.v 
@@ -13,13 +13,13 @@ Konkuk Univ. 3rd grade, Embedded Computing lecture - Park Jonghyuk, Ko Ryeowook
     > except "fft_hw" function in main.c, in which flushes and activates DMA. 
 * Timing diagram of the whole set
 
-### Block diagram
+### > Block diagram
 
 <p align="center">
   <img src="/images/block_diagram.png" width="90%" height="90%" title="total loss" alt="total loss"></img>
 </p>
 
-### Vivado block design
+### > Vivado block design
 <p align="center">
   <img src="/images/block_design.png" width="90%" height="90%" title="total loss" alt="total loss"></img>
 </p>
@@ -33,7 +33,7 @@ Konkuk Univ. 3rd grade, Embedded Computing lecture - Park Jonghyuk, Ko Ryeowook
 * 50MHz clock reference, considered the worst negative slack
 
 # 1. Programming language & S/W tools & FPGA used
-* Verilog HDL, C
+* __Verilog HDL__, C
 * Vivado 2017.4, Vivado SDK
 * Zybo Z7-20
 
