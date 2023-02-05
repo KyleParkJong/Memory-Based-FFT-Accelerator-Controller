@@ -13,8 +13,15 @@ Konkuk Univ. 3rd grade, Embedded Computing lecture - Park Jonghyuk, Ko Ryeowook
     > except "fft_hw" function in main.c, in which flushes and activates DMA. 
 * Timing diagram of the whole set
 
+### Block diagram
+
 <p align="center">
   <img src="/images/block_diagram.png" width="90%" height="90%" title="total loss" alt="total loss"></img>
+</p>
+
+### Vivado block design
+<p align="center">
+  <img src="/images/block_design.png" width="90%" height="90%" title="total loss" alt="total loss"></img>
 </p>
 
 + more details : TP_EC22_r3.pdf
