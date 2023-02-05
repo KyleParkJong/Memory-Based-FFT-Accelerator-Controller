@@ -1,5 +1,5 @@
 # Embedded-Computing-term-project
-Konkuk Univ. 3rd grade, Embedded Computing lecture - Park Jonghyuk, Ko Ryeowook
+> Konkuk Univ. 3rd grade, Embedded Computing lecture - Park Jonghyuk, Ko Ryeowook
 
 # 0. Key objectives of this Term project 
 * Designing a __controller__ for memory-based FFT Accelerator using Verilog HDL
