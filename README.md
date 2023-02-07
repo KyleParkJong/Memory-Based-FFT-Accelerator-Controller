@@ -4,7 +4,7 @@
 > 건국대학교 3학년 2학기, 임베디드컴퓨팅 - 박종혁, 고려욱 (2인 1조 텀프로젝트) 
 
 # 0. Key objectives of this Term project 
-> Designing a __controller__ for memory-based FFT Accelerator using Verilog HDL
+> _Designing a __controller__ for memory-based FFT Accelerator using Verilog HDL_
 
 ## > Things provided in class
 * Block diagram of the FFT Acclerator 
