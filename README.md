@@ -39,8 +39,8 @@
 * Vivado 2017.4, Vivado SDK
 * Zybo Z7-20
 
-# 2. Design
-* Our design : __controller_16pt_2.v__, __controller_64pt.v__
+# 2. Our Design
+* __controller_16pt_2.v__, __controller_64pt.v__
 * sdk_src main.c "fft_hw" function
 
 <p align="center">
