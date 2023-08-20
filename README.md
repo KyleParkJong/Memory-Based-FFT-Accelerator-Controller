@@ -6,7 +6,7 @@
 # 0. Key objectives of this Term project 
 > _Designing a __controller__ for memory-based FFT Accelerator using Verilog HDL_
 
-## > Things provided in class
+## Things provided in class
 * Block diagram of the FFT Acclerator 
 * Code provided (__Verilog HDL__)
     + axis_fft.v, BF.v, FFT.v, FFTcore.v, MULT.v, TopFFT.v 
@@ -15,13 +15,13 @@
     + except "fft_hw" function in main.c, in which flushes and activates DMA. 
 * Timing diagram of the whole set
 
-## > Block diagram
+## Block diagram
 
 <p align="center">
   <img src="/images/block_diagram.png" width="90%" height="90%" title="total loss" alt="total loss"></img>
 </p>
 
-## > Vivado block design
+## Vivado block design
 <p align="center">
   <img src="/images/block_design.png" width="90%" height="90%" title="total loss" alt="total loss"></img>
 </p>
